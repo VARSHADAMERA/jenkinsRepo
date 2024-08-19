@@ -5,6 +5,7 @@ pipeline {
         stage('Hello1') {
             steps {
                 echo 'Hello World1'
+                bat 'mkdir "C:\\ProgramData\\Jenkins\\Demo2"'
             }
         }
          stage('Hello2') {
